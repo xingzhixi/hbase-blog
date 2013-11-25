@@ -1,0 +1,8 @@
+create 'account','upwd'
+
+/*
+列 info 博客信息,包括：title , content , author
+列 comment_reviewer 博客的评论回复者, 以时间戳作为qualifier
+列 comment_content 博客评论回复内容,以与comment_reviewer相同的时间戳作为qualifier
+*/
+create 'blog','info','comment_reviewer', 'comment_content'
